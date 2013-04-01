@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StringFormat\StringFormat.csproj">
+    <ProjectReference Include="..\StringFormat\StringFormatter.csproj">
       <Project>{7100baf0-9e39-45d5-bc8f-cd41e0578bf7}</Project>
-      <Name>StringFormat</Name>
+      <Name>StringFormatter</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

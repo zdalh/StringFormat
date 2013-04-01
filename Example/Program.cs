@@ -10,7 +10,7 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            using (var cmd = new StringFormater(@"www.g.cn?{\{\[pv=\@@pv$}&c=2[&a=@a$][&b=@b$321]&d=abc"))
+            using (var cmd = new StringFormatter(@"www.g.cn?{\{\[pv=\@@pv$}&c=2[&a=@a$][&b=@b$321]&d=abc"))
             {
                 cmd.ClearParameter();
                 cmd.AddParameter("pv", 1);

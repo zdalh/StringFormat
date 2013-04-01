@@ -9,7 +9,7 @@ namespace Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var cmd = new StringFormat.StringFormater(@"www.g.cn?{\{\[x=\@@x$}&c=2[&a=@a$][&b=@b$321]&d=abc");
+            var cmd = new StringFormat.StringFormatter(@"www.g.cn?{\{\[x=\@@x$}&c=2[&a=@a$][&b=@b$321]&d=abc");
 
             cmd.ClearParameter();
             cmd.AddParameter("x", 1);

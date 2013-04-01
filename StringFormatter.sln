@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormat", "StringFormat\StringFormat.csproj", "{7100BAF0-9E39-45D5-BC8F-CD41E0578BF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormatter", "StringFormat\StringFormatter.csproj", "{7100BAF0-9E39-45D5-BC8F-CD41E0578BF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A94F6F2F-77B5-424D-8D29-BAF223D6630E}"
 EndProject

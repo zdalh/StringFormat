@@ -23,7 +23,7 @@ namespace StringFormat
     ///</summary>
     ///<example>
     /// <code>
-    ///     var str = @"g.cn?{a=@a}[&b=@b][&c=@c]";
+    ///     var str = @"g.cn?{a=@a$}[&b=@b$][&c=@c$]";
     ///     var strFormat = new StringFormater(str);
     ///     strFormat.AddParameter("@a",1);
     ///     strFormat.AddParameter("@b",2);
@@ -31,7 +31,7 @@ namespace StringFormat
     /// </code>
     /// 最终str的值为 "g.cn?a=1&b=2"
     ///</example>
-    public sealed class StringFormater : IDisposable
+    public sealed class StringFormatter : IDisposable
     {
         #region Fields
 
@@ -120,12 +120,12 @@ namespace StringFormat
 
         #region Constructor
 
-        public StringFormater()
+        public StringFormatter()
         {
             Parameters = new List<StringCommandParameter>();
         }
 
-        public StringFormater(string source)
+        public StringFormatter(string source)
             : this()
         {
             this.Source = source;
